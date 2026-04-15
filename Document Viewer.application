@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://osekfe4.github.io/2/Document Viewer.application" />
+    <deploymentProvider codebase="https://osekfe4.github.io/1/Document Viewer.application" />
   </deployment>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Application Files/Document Viewer_1_0_0_0/XWormClient_protected111111.exe.manifest" size="2173">
